@@ -1,0 +1,63 @@
+$maincolor:white;
+$mainFont:'Trirong', serif;
+#home{
+	text-align: center;
+	height: 100vh;
+	background:{
+		image:url(../images/slide1.jpg);
+		size:cover;
+		repeat:no-repeat;
+
+	}
+	.mybar{
+		margin-top: 30px;
+	}
+	.reslogo >img{
+		margin-top: 9px;
+		margin-bottom: 15px;
+	}
+	ul li a{
+		font-weight: 300;
+	    text-transform: uppercase;
+	    color: #fff;
+	    line-height: 24px;
+	    font-size: 14px;
+	    padding-top: 15px;
+	    padding-bottom:15px;
+	    font-family: $mainFont;
+	}
+	&a{
+		color: #337ab7;
+	}
+	.textslid{
+		position: relative;
+		top: 200px;
+		max-width: 700px;
+		margin: 0 auto;
+		color: #fff;
+	}
+	.textslid>h1{
+		font-size: 50px;
+		font-weight: 400;
+		font-family: 'Playball', cursive;
+		color: #ffab0a;
+		padding-bottom: 10px;
+	}
+	.textslid p{
+		font-size: 20px;
+		line-height: 30px;
+		font-weight: 300;
+		font-family: $mainFont;
+		font-style: italic;
+	}
+	.textslid>button{
+		@include custombtns;
+		margin-top: 10px;
+		&:hover{
+			background:red;
+			border: 2px solid red;
+			transition: all 1s ease;
+		}
+
+	}
+}

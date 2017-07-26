@@ -1,0 +1,259 @@
+body {
+  font-family: 'Trirong', serif;
+  font-weight: 300;
+  color: #444;
+  font-size: 15px;
+  line-height: 24px;
+}
+
+#home {
+  text-align: center;
+  height: 100vh;
+  background-image: url(../images/slide1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#home .mybar {
+  margin-top: 30px;
+}
+#home .reslogo > img {
+  margin-top: 9px;
+  margin-bottom: 15px;
+}
+#home ul li a {
+  font-weight: 300;
+  text-transform: uppercase;
+  color: #fff;
+  line-height: 24px;
+  font-size: 14px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-family: "Trirong", serif;
+}
+#homea {
+  color: #337ab7;
+}
+#home .textslid {
+  position: relative;
+  top: 200px;
+  max-width: 700px;
+  margin: 0 auto;
+  color: #fff;
+}
+#home .textslid > h1 {
+  font-size: 50px;
+  font-weight: 400;
+  font-family: 'Playball', cursive;
+  color: #ffab0a;
+  padding-bottom: 10px;
+}
+#home .textslid p {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 300;
+  font-family: "Trirong", serif;
+  font-style: italic;
+}
+#home .textslid > button {
+  background: #ffab0a;
+  border: 2px solid #ffab0a;
+  color: #fff;
+  padding: 8px 30px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+#home .textslid > button:hover {
+  background: red;
+  border: 2px solid red;
+  transition: all 1s ease;
+}
+
+#about .picabout img {
+  width: 100%;
+  height: auto;
+}
+#about .about {
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+#about .descAbout {
+  padding-left: 40px;
+}
+#about .descAbout h1 {
+  font-family: 'Playball', cursive;
+  margin: 30px 0;
+}
+#about .descAbout h1 > span {
+  color: #ffab0a;
+}
+#about .descAbout p {
+  margin-bottom: 20px;
+}
+#about .descAbout > button {
+  background: #ffab0a;
+  border: 2px solid #ffab0a;
+  color: #fff;
+  padding: 8px 30px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+#about .descAbout > button:hover {
+  background: red;
+  border: 2px solid red;
+  transition: all 1s ease;
+}
+
+#views {
+  margin-top: 50px;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#views .services {
+  padding: 35px 25px 15px 25px;
+  margin-right: -22px;
+  border-style: solid;
+  border-color: #f1f1f1;
+  border-width: 1px;
+}
+#views .services h3 {
+  font-size: 16px;
+}
+#views .services p {
+  color: #333;
+}
+
+#book {
+  text-align: center;
+  background-image: url(../images/parallax1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#book .book {
+  height: 440px;
+  background: rgba(11, 13, 34, 0.8);
+  z-index: 1000;
+  padding: 80px 0;
+  margin: 0 auto;
+}
+#book .book h1 {
+  font-family: 'Playball', cursive;
+  color: white;
+  font-size: 50px;
+}
+#book .book p {
+  width: 600px;
+  margin: 0 auto;
+  color: white;
+  padding: 30px 0;
+}
+#book .book > button {
+  background: #ffab0a;
+  border: 2px solid #ffab0a;
+  color: #fff;
+  padding: 8px 30px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+#book .book > button:hover {
+  background: red;
+  border: 2px solid red;
+  transition: all 1s ease;
+}
+
+#menu {
+  padding-bottom: 80px;
+  border-bottom: 1px solid #f1f1f1;
+}
+#menu .menu {
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 70px;
+}
+#menu .menu h1 {
+  font-family: 'Playball', cursive;
+}
+#menu .menu h1 span {
+  color: #ffab0a;
+}
+#menu .active {
+  background: #ffab0a !important;
+  border: 2px solid #ffab0a !important;
+  color: #fff !important;
+}
+#menu .menuNav {
+  display: inline-block;
+  border-bottom: none;
+  margin: 30px 0;
+}
+#menu .menuNav li a {
+  background: white;
+  border: 2px solid lightgray;
+  color: gray;
+  padding: 12px 33px;
+  font-weight: 300;
+  text-transform: uppercase;
+  border-radius: 30px;
+  font-size: 12px;
+}
+#menu .menuNav li a:hover {
+  background: #ffab0a;
+  border: 2px solid #ffab0a;
+  color: #fff;
+}
+#menu .menupic img {
+  width: 100%;
+  height: auto;
+}
+#menu .menu-item h1 {
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+#menu .menu-item h5 {
+  float: right;
+  font-family: 'Courgette', cursive;
+  font-weight: 700;
+  font-size: 20px;
+  margin-bottom: 8px;
+  color: #ffab0a;
+}
+#menu .menu-item p {
+  border-bottom: 2px dotted #f1f1f1;
+  padding-bottom: 25px;
+}
+
+#describPhoto .special {
+  text-align: center;
+  margin: 40px 0 30px;
+}
+#describPhoto .special > h1 {
+  font-family: 'Playball', cursive;
+}
+#describPhoto .special > h1 span {
+  color: #ffab0a;
+}
+#describPhoto .photodesc {
+  border: 1px solid #f1f1f1;
+  text-align: center;
+  padding: 25px 25px 15px 25px;
+}
+#describPhoto .photodesc img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+#describPhoto .photodesc h3 {
+  font-size: 16px;
+  font-weight: bold;
+}

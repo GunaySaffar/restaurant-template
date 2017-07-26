@@ -1,0 +1,21 @@
+#views{
+	margin-top:50px;
+	text-align:center;
+	margin-bottom:80px;
+	.services{
+		padding: 35px 25px 15px 25px;
+		margin-right:-22px;
+		border:{
+			style:solid;
+			color:#f1f1f1;
+			width: 1px;
+		}
+	}
+	.services h3{
+			font-size: 16px;
+
+	}
+	.services p{
+		color: #333;
+	}
+}

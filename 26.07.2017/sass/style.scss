@@ -1,0 +1,24 @@
+@mixin custombtns{
+	background: #ffab0a;
+    border: 2px solid #ffab0a;
+    color: #fff;
+    padding: 8px 30px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: uppercase;
+    border-radius:30px;
+}
+body{
+	font-family:'Trirong', serif;
+    font-weight: 300;
+    color: #444;
+    font-size: 15px;
+    line-height: 24px;
+}
+@import "home";
+@import "about";
+@import "views";
+@import "book";
+@import "menu";
+@import "describPhoto";
+@import "reservation";

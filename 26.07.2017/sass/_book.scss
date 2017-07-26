@@ -1,0 +1,37 @@
+#book{
+	text-align:center;
+	background:{
+		image:url(../images/parallax1.jpg);
+		repeat:no-repeat;
+		size:cover;
+		attachment:fixed;
+	}
+	.book{
+		height:440px;
+    	background: rgba(11,13,34,0.8);
+    	z-index: 1000;
+    	padding: 80px 0;
+    	margin:0 auto;
+
+	}
+	.book h1{
+		font-family: 'Playball', cursive;
+		color: white;
+		font-size: 50px;
+	}
+	.book p{
+		width: 600px;
+		margin:0 auto;
+		color: white;
+		padding: 30px 0;
+	}
+	.book>button{
+		@include custombtns;
+		margin-top: 10px;
+		&:hover{
+			background:red;
+			border: 2px solid red;
+			transition: all 1s ease;
+		}
+	}
+}

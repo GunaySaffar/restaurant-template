@@ -1,0 +1,26 @@
+#describPhoto{
+	.special{
+		text-align: center;
+		margin:40px 0 30px;
+	}
+	.special>h1{
+		font-family: 'Playball', cursive;
+		span{
+			color: #ffab0a;
+		}
+	}
+	.photodesc{
+		border:1px solid #f1f1f1;
+		text-align: center;
+		padding: 25px 25px 15px 25px; 
+	}
+	.photodesc img{
+		border-radius: 50%;
+		width: 200px;
+		height: 200px;
+	}
+	.photodesc h3{
+		font-size: 16px;
+		font-weight: bold;
+	}
+}

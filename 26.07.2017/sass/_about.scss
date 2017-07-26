@@ -1,0 +1,32 @@
+#about{
+	.picabout img{
+	width:100%;
+	height:auto;
+	}
+	.about{
+		margin-top:70px;
+		margin-bottom:70px;
+	}
+	.descAbout{
+		padding-left: 40px;
+	}
+	.descAbout h1{
+	font-family: 'Playball', cursive;
+	margin:30px 0;
+	}
+	.descAbout h1>span{
+	color: #ffab0a;
+	}
+	.descAbout p{
+		margin-bottom: 20px;
+	}
+	.descAbout>button{
+		@include custombtns;
+		margin-top: 10px;
+		&:hover{
+			background:red;
+			border: 2px solid red;
+			transition: all 1s ease;
+		}
+	}
+}
